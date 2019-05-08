@@ -60,7 +60,9 @@ body {
 }
 
 
-
+.card {
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+}
 
 
 strong { 
@@ -145,5 +147,25 @@ hr {
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 3rem;
+}
+
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
 }
   
