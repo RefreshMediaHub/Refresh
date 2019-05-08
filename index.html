@@ -17,11 +17,11 @@
     <!-- Core CSS File -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent navbar-fixed-top">
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <span class="text-white" style="font-weight: 700; font-size: 2.25rem;">Refresh</span>
+                <span class="text-white" id="return-to-top" style="font-weight: 700; font-size: 2.25rem;">Refresh</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,8 +57,8 @@
             </div>
         </div>
     </nav>
-</header>
-
+<!-- NAVBAR -->
+<!-- SECTION ONE -->
 <body>
     <div class="jumbotron jumbotron-fluid d-flex align-items-center bg-transparent">
         <div class="container">
@@ -67,117 +67,96 @@
                 up your brand</h1>
             <p class="animated fadeInLeft" style="color: white; font-size: 17px;">A digital marketing and web design
                 company focused on
-                helping your company <strong>grow</strong></p>
-            <button type="button" class="btn btn-primary">GET A QUOTE</button>
+                helping your company <strong style="color: #2ecc71; letter-spacing: 1px;">grow</strong></p>
+            <button type="button" class="btn btn-primary transition-3d-hover animated fadeInUp">GET A QUOTE</button>
         </div>
     </div>
-    <section style="background: #ECF0F3;">
+    <section style="background: #ECF0F3">
         <div class="container">
-
-            <div class="row">
+            <div class="row text-dark text-center pt-5">
                 <!-- card start -->
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-
-                    <div class="box-part text-center">
-
-                        <i class="fas fass fa-bullseye fa-4x" aria-hidden="true"></i>
-
-                        <div class="title">
-                            <h3>Digital Advertising</h3>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body d-flex flex-column">
+                            <i class="fas fass fa-bullseye fa-3x"></i>
+                            <h5 class="card-title pt-3" style="font-weight: 600; letter-spacing: 1px;">Digital Advertising</h5>
+                            <p class="card-text pt-4">Leverage the internet's unprecedented targeting and start delivering the right message to the right person at the right time.
+                            </p>
+                            <a href="#" class="btn gradientBtn transition-3d-hover text-white mt-auto">Learn More</a>
                         </div>
-
-                        <div class="textCard">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                                scripta ocurreret
-                                qui ad.</span>
-                        </div>
-
-                        <a class="btn gradientBtn text-white btn-wide btn-pill transition-3d-hover mt-auto" href="#"
-                            target="_blank">Learn
-                            More</a>
-
                     </div>
                 </div>
                 <!-- card end -->
                 <!-- card start -->
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-
-                    <div class="box-part text-center">
-
-                        <i class="fas fass fa-bullseye fa-4x" aria-hidden="true"></i>
-
-                        <div class="title">
-                            <h3>Digital Advertising</h3>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body d-flex flex-column">
+                            <i class="fas fass fa-search-dollar fa-3x"></i>
+                            <h5 class="card-title pt-3" style="font-weight: 600; letter-spacing: 1px;">Search Engine Optimization</h5>
+                            <p class="card-text">Make the decision to start ranking for the keywords that matter and stop losing out on precious traffic to your competitors today.
+                            </p>
+                            <a href="#" class="btn gradientBtn transition-3d-hover text-white mt-auto">Learn More</a>
                         </div>
-
-                        <div class="textCard">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                                scripta ocurreret
-                                qui ad.</span>
-                        </div>
-
-                        <a class="btn gradientBtn text-white btn-wide btn-pill transition-3d-hover" href="#"
-                            target="_blank">Learn
-                            More</a>
-
                     </div>
                 </div>
                 <!-- card end -->
                 <!-- card start -->
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-
-                    <div class="box-part text-center">
-
-                        <i class="fas fass fa-bullseye fa-4x" aria-hidden="true"></i>
-
-                        <div class="title">
-                            <h3>Digital Advertising</h3>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body d-flex flex-column">
+                            <i class="fas fass fa-laptop-code fa-3x"></i>
+                            <h5 class="card-title pt-3" style="font-weight: 600; letter-spacing: 1px;">Web Design & Development</h5>
+                            <p class="card-text">A well-made website should be beautiful yet functional- and most importantly- it should be designed for conversion.
+                            </p>
+                            <a href="#" class="btn gradientBtn transition-3d-hover text-white mt-auto">Learn More</a>
                         </div>
-
-                        <div class="textCard">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                                scripta ocurreret
-                                qui ad.</span>
-                        </div>
-
-                        <a class="btn gradientBtn text-white btn-wide btn-pill transition-3d-hover" href="#"
-                            target="_blank">Learn
-                            More</a>
-
                     </div>
                 </div>
                 <!-- card end -->
                 <!-- card start -->
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-
-                    <div class="box-part text-center">
-
-                        <i class="fas fass fa-bullseye fa-4x" aria-hidden="true"></i>
-
-                        <div class="title">
-                            <h3>Digital Advertising</h3>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body d-flex flex-column">
+                            <i class="fas fass fa-bullhorn fa-3x"></i>
+                            <h5 class="card-title pt-3" style="font-weight: 600; letter-spacing: 1px;">Content Marketing</h5>
+                            <p class="card-text pt-4">Content marketing works to generate brand awareness, brand engagement, and- ultimately- brand affinity. 
+                            </p>
+                            <a href="#" class="btn gradientBtn transition-3d-hover text-white mt-auto">Learn More</a>
                         </div>
-
-                        <div class="textCard">
-                            <span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr
-                                scripta ocurreret
-                                qui ad.</span>
-                        </div>
-
-                        <a class="btn gradientBtn text-white btn-wide btn-pill transition-3d-hover" href="#"
-                            target="_blank">Learn
-                            More</a>
-
                     </div>
                 </div>
-                <div class="col-12 text-center">
-                    <h3>For a limited time we are</h3>
-                    <h3>For a limited time we are</h3>
-                    <h3>For a limited time we are</h3>
-                    <i class="fas fa-arrow-down fa-3x"></i>
+                
+                <div class="col-12 text-center pt-5" style="color: black; font-weight: 700;">
+                    <hr>
+                    <small style="font-size: 18px; letter-spacing: 1px;">For a limited time we are offering new clients a</small>
+                    <h2 style="font-weight: 600 !important; font-size: 2rem; letter-spacing: 1px; color: #2B9CF2">FREE WEBSITE</h2>
+                    <i class="fas fa-arrow-down fa-3x animated rubberBand delay-2s"></i>
                 </div>
+                
             </div>
+        </div>
     </section>
+<!-- SECTION ONE END -->
+<!-- SECTION TWO -->
+    <section style="background: #ECF0F3">
+        <div class="container pt-5">
+            
+        </div>
+    </section>
+<!--Start of Live Chat Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5cd15f0ad07d7e0c63924e1f/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+<!--End of Live Chat Script-->
+
 </body>
 
 <!-- SCRIPTS -->
@@ -190,5 +169,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script src="/assets/javascript/app.js"></script>
 
 </html>

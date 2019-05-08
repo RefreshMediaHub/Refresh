@@ -3,11 +3,11 @@ body {
     width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(219deg, #17c9ff, #1796ff, #6945f7, #8e17ff);
+	background: linear-gradient(212deg, #7A3AFF, #5073b8, #1098ad);
 	background-size: 1200% 1200%;
-	-webkit-animation: Gradient 20s ease infinite;
-	-moz-animation: Gradient 20s ease infinite;
-    animation: Gradient 20s ease infinite;
+	-webkit-animation: Gradient 25s ease infinite;
+	-moz-animation: Gradient 25s ease infinite;
+    animation: Gradient 25s ease infinite;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -59,72 +59,56 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
+
+
+
 strong { 
     font-weight: bold; 
 }
 
 .btn-primary {
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    border-radius: 100px;
-    background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 2px;
+	padding: 13px 17px;
+	border: 3px solid #2ecc71;
+	border-radius: 2px;
+    transition: (color .2s linear, background-color .2s linear);
+    background: #2ecc71;
+    
 }
 
 .btn-primary:hover {
-    border: 2px solid white;
+    border: 3px solid white;
     background-color: transparent;
 }
 
-
-
-
-
-.box-part {
-    background:#FFF;
-    border-radius:10px;
-    padding:60px 10px;
-    margin:30px 0px;
-    color: black;
+.title {
+    font-size: 22px;
 }
-  
-.box-part:hover {
-    background:#17ACFF;
+
+.card {
+    border-radius: 10px;
 }
-  
-.box-part:hover .fass , 
-.box-part:hover .title , 
-.box-part:hover .textCard ,
-.box-part:hover a {
-    color:#FFF;
-    -webkit-transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    transition: all 1s ease-out;
+
+.fas {
+    color: #2B9CF2;
 }
-  
+
 .fass {
-    color:#4183D7;
-}
-  
-.textCard {
-    margin:20px 0px;
-}
-  
-.box {
-    padding:60px 0px;
+    color: #2B9CF2;
 }
 
 .gradientBtn {
-    
     font-weight: bold;
-    background-image: linear-gradient(231deg, #17c9ff, #1796ff, #6945f7, #8e17ff);
+    background-image: linear-gradient(35deg, #7A3AFF, #5073b8, #1098ad);
     border-radius: 40px;
     background-size: 800% 800%;
-	-webkit-animation: Gradient 13s ease infinite;
-	-moz-animation: Gradient 13s ease infinite;
-    animation: Gradient 13s ease infinite;
+    letter-spacing: 2px;
+	-webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
 }
 
 .btn-wide {
@@ -143,3 +127,12 @@ strong {
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
 }
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:black;
+    height: 1px;
+  }
