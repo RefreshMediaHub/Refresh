@@ -69,11 +69,11 @@ strong {
 
 .btn-primary {
     font-weight: bold;
-	font-size: 15px;
+	font-size: 17px;
 	letter-spacing: 2px;
 	padding: 13px 17px;
 	border: 3px solid #2ecc71;
-	border-radius: 2px;
+	
     transition: (color .2s linear, background-color .2s linear);
     background: #2ecc71;
     
@@ -83,6 +83,7 @@ strong {
     border: 3px solid white;
     background-color: transparent;
 }
+
 
 .title {
     font-size: 22px;
@@ -137,4 +138,12 @@ hr {
     height: 1px;
   }
 
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+.textHeaders {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 3rem;
+}
   
